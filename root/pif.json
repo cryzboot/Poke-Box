@@ -1,0 +1,21 @@
+{
+"ID": "BP41.250916.010.A1",
+"BRAND": "google",
+"DEVICE": "mustang",
+"MANUFACTURER": "Google",
+"FINGERPRINT": "google/mustang_beta/mustang:16/BP41.250916.010.A1/14281945:user/release-keys",
+"MODEL": "Pixel 10 Pro XL",
+"PRODUCT": "mustang_beta",
+"SECURITY_PATCH": "2025-11-05",
+"DEVICE_INITIAL_SDK_INT": "32",
+"TYPE": "user",
+"TAG": "release-keys",
+"RELEASE": "16",
+"DEBUG": false,
+"spoofBuild": "1",
+"spoofProps": "0",
+"spoofProvider": "0",
+"spoofSignature": "0",
+"spoofVendingSdk": "0",
+"verboseLogs": "0"
+}
