@@ -7,7 +7,7 @@ SKIPUNZIP=1
 SOURCE_DIR="$MODPATH/root"
 
 ui_print "*******************************"
-ui_print "           Poke Box v0.1       "
+ui_print "             Poke Box          "
 ui_print "           By: cryzboot        "
 ui_print "*******************************"
 
