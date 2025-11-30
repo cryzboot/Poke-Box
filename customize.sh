@@ -14,15 +14,14 @@ ui_print "*******************************"
 # 1. VERIFICATION: Check if tricky_store exists
 # If the folder does not exist, cancel installation
 if [ ! -d "/data/adb/tricky_store" ]; then
-  ui_print "! CRITICAL ERROR:"
-  ui_print "! Directory /data/adb/tricky_store NOT found."
-  ui_print "! Installation aborted."
+  ui_print "- ERROR: Install Tricky Store before continuing..."
   abort
 fi
 
 # Extract module files to temporary directory
 unzip -o "$ZIPFILE" 'root/*' -d $MODPATH >&2
 unzip -o "$ZIPFILE" 'module.prop' -d $MODPATH >&2
+unzip -o "$ZIPFILE" 'clean.sh' -d $MODPATH >&2
 
 # 2. CLEANUP: Delete old files (No backups)
 ui_print "- Cleaning up old files..."
@@ -41,44 +40,38 @@ ui_print "- Updating new files..."
 # Copy pif.json
 if [ -f "$SOURCE_DIR/pif.json" ]; then
     cp "$SOURCE_DIR/pif.json" "/data/adb/pif.json"
-    ui_print "  >pif.json"
 fi
 
 # Copy pif.prop to adb root
 if [ -f "$SOURCE_DIR/pif.prop" ]; then
     cp "$SOURCE_DIR/pif.prop" "/data/adb/pif.prop"
-    ui_print "  >pif.prop"
 fi
 
 # Copy security_patch
 if [ -f "$SOURCE_DIR/security_patch.txt" ]; then
     cp "$SOURCE_DIR/security_patch.txt" "/data/adb/tricky_store/security_patch.txt"
-    ui_print "  >security_patch.txt"
 fi
 
 # Copy target.txt
 if [ -f "$SOURCE_DIR/target.txt" ]; then
     cp "$SOURCE_DIR/target.txt" "/data/adb/tricky_store/target.txt"
-    ui_print "  >target.txt"
 fi
 
-# Copy 3 certificates from obfuscated files
+# Copy 3 certificates from obfuscated file
 random_keybox=$(find "$SOURCE_DIR" -type f -name "*@pokezone" | head -n 1)
 
 if [ -n "$random_keybox" ]; then
     cp "$random_keybox" "/data/adb/tricky_store/keybox.xml"
-    ui_print "  >keybox.xml"
 else
-    ui_print "ERROR: No keybox file found"
+    ui_print "- ERROR: No keybox file found"
 fi
 
 # Copy pif.prop to Play Integrity Fix module folder
 if [ -d "/data/adb/modules/playintegrityfix" ]; then
     cp "$SOURCE_DIR/pif.prop" "/data/adb/modules/playintegrityfix/pif.prop"
-    ui_print "  >pif.prop"
 else
-    ui_print "! WARNING: Play Integrity Fix module folder not found."
-    ui_print "! Skipping copy to /data/adb/modules/playintegrityfix/"
+    ui_print "- WARNING: Install Play Integrity Fork."
+    abort
 fi
 
 # 4. PERMISSIONS
@@ -92,11 +85,15 @@ if [ -f "/data/adb/modules/playintegrityfix/pif.prop" ]; then
     set_perm /data/adb/modules/playintegrityfix/pif.prop 0 0 0644
 fi
 
-# Kill GMS processes
-su -c killall com.google.android.gms >/dev/null 2>&1
-su -c killall com.google.android.gms.unstable >/dev/null 2>&1
-su -c killall com.android.vending >/dev/null 2>&1
+# 5. CLEANING PROCESS: Run external cleaning script
+if [ -f "$MODPATH/clean.sh" ]; then
+    set_perm "$MODPATH/clean.sh" 0 0 0755
+    sh "$MODPATH/clean.sh"
+else
+    ui_print "- WARNING: clean.sh not found."
+    abort
+fi
 
 ui_print "*******************************"
-ui_print "   Installation Finished       "
+ui_print "    Installation Finished      "
 ui_print "*******************************"
