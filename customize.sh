@@ -85,7 +85,7 @@ if [ -f "/data/adb/modules/playintegrityfix/pif.prop" ]; then
     set_perm /data/adb/modules/playintegrityfix/pif.prop 0 0 0644
 fi
 
-# 5. CLEANING PROCESS: Run external cleaning script
+# 5. CLEANING PROCESS
 if [ -f "$MODPATH/clean.sh" ]; then
     set_perm "$MODPATH/clean.sh" 0 0 0755
     sh "$MODPATH/clean.sh"
