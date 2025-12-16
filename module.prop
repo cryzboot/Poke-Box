@@ -1,7 +1,7 @@
 id=pokebox
 name=Poke Box
-version=v0.2 (09b53b)
-versionCode=2
+version=v0.3 (12b25cd)
+versionCode=3
 author=cryzboot
 description=Addon for Integrity Fix module to play Pokémon GO.
 updateJson=https://raw.githubusercontent.com/cryzboot/Poke-Box/main/update.json
