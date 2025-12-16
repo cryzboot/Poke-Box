@@ -5,10 +5,9 @@ Poke Box by cryzboot
 ## v0.3
 
 - keybox updated
+- Removed unnecessary code and files
 - Auto update
 - Automatically cleans Play Store and Pokémon GO
-- Synced with latest security patch
-- Better compatibility with Android 12 or below
 - Join to [POKE Zone](https://t.me/pokezonee) group
 
 ## v0.2
