@@ -5,6 +5,14 @@ Poke Box by cryzboot
 ## v0.4
 
 - keybox updated
+- Compatible with old Magisk version
+- Removed unnecessary code
+- Automatically cleans Play Store and Pokémon GO
+- Join to [POKE Zone](https://t.me/pokezonee) group
+
+## v0.4
+
+- keybox updated
 - Auto update
 - Removed unnecessary code
 - Automatically cleans Play Store and Pokémon GO
