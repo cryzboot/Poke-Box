@@ -2,7 +2,7 @@
 
 Poke Box by cryzboot
 
-## v0.4
+## v0.5
 
 - keybox updated
 - Compatible with old Magisk version
