@@ -5,7 +5,7 @@ Poke Box by cryzboot
 ## v0.6
 
 - Version to get BASIC integrity
-- Beta version of Poke 0.6
+- Poke Box 0.6 Beta version
 - Compatible with old Magisk version
 - Removed unnecessary code
 - Automatically cleans Play Store and Pokémon GO
