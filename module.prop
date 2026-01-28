@@ -1,7 +1,7 @@
 id=pokebox
-name=Poke Box
-version=v0.5
-versionCode=5
-author=cryzboot
-description=Addon for Integrity Fix module to play Pokémon GO.
+name=Poke Box (GitHub@mikaowner)
+version=v0.6
+versionCode=6
+author=cryzboot & mikaowner
+description=Extension for the Integrity Fix module designed to allow Pokémon GO to run properly. This version ensures at least BASIC integrity compliance.
 updateJson=https://raw.githubusercontent.com/cryzboot/Poke-Box/main/update.json

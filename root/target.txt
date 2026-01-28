@@ -1,11 +1,9 @@
-com.android.vending!
 com.google.android.apps.walletnfcrel!
 com.google.android.gms!
-com.google.android.gsf!
+com.google.android.gsf
 com.nianticlabs.pokemongo!
 com.revolut.revolut!
 io.github.vvb2060.keyattestation!
-com.openai.chatgpt!
 app.nicegram!
 gr.nikolasspyr.integritycheck!
 com.whatsapp!
@@ -13,3 +11,5 @@ com.zhiliaoapp.musically!
 com.byxiaorun.detector!
 com.google.ar.core!
 org.telegram.messenger!
+com.reveny.nativecheck!
+jp.pokemon.pokemontcgp!

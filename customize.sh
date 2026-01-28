@@ -21,7 +21,6 @@ fi
 
 # DELETE OLD FILES
 ui_print "- Cleaning up old files..."
-rm -f /data/adb/tricky_store/security_patch.txt
 rm -f /data/adb/tricky_store/target.txt
 rm -f /data/adb/tricky_store/keybox.xml
 
