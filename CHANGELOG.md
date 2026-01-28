@@ -2,13 +2,22 @@
 
 Poke Box by cryzboot
 
+## v0.6
+
+- Version to get BASIC integrity
+- Beta version of Poke 0.6
+- Compatible with old Magisk version
+- Removed unnecessary code
+- Automatically cleans Play Store and Pokémon GO
+- Join to [POKE Zone](https://t.me/pokezonee)
+
 ## v0.5
 
 - keybox updated
 - Compatible with old Magisk version
 - Removed unnecessary code
 - Automatically cleans Play Store and Pokémon GO
-- Join to [POKE Zone](https://t.me/pokezonee) group
+- Join to [POKE Zone](https://t.me/pokezonee)
 
 ## v0.4
 
@@ -16,7 +25,7 @@ Poke Box by cryzboot
 - Auto update
 - Removed unnecessary code
 - Automatically cleans Play Store and Pokémon GO
-- Join to [POKE Zone](https://t.me/pokezonee) group
+- Join to [POKE Zone](https://t.me/pokezonee)
 
 ## v0.3
 
@@ -24,7 +33,7 @@ Poke Box by cryzboot
 - Removed unnecessary code and files
 - Auto update
 - Automatically cleans Play Store and Pokémon GO
-- Join to [POKE Zone](https://t.me/pokezonee) group
+- Join to [POKE Zone](https://t.me/pokezonee)
 
 ## v0.2
 
@@ -34,7 +43,7 @@ Poke Box by cryzboot
 - Updated Fingerprint
 - Fixed formatting of a key structure
 - Better compatibility with Android 12 or below
-- Join to [POKE Zone](https://t.me/pokezonee) group
+- Join to [POKE Zone](https://t.me/pokezonee)
 
 ## v0.1
 
@@ -43,4 +52,4 @@ Poke Box by cryzboot
 - Requires Magisk v27 or higher
 - Play Integrity Fix Inject or fork is required
 - Tricky Store is mandatory
-- Join to [POKE Zone](https://t.me/pokezonee) group
+- Join to [POKE Zone](https://t.me/pokezonee)
