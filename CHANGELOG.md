@@ -2,6 +2,15 @@
 
 Poke Box by cryzboot
 
+## v0.8
+
+- new keybox
+- targetlist updated
+- Compatible with magisk 26+
+- Added security features
+- Automatically cleans Play Store and Pokémon GO
+- Join to [POKE Zone](https://t.me/pokezonee)
+
 ## v0.7
 
 - new keybox

@@ -1,7 +1,7 @@
 id=pokebox
 name=Poke Box
-version=v0.7
-versionCode=7
+version=v0.8
+versionCode=8
 author=cryzboot
-description=Extension for the Integrity Fix module designed to allow Pokémon GO to run properly.
+description=Integrity extension developed to ensure valid attestation for Pokémon GO.
 updateJson=https://raw.githubusercontent.com/cryzboot/Poke-Box/main/update.json

@@ -38,25 +38,19 @@ random_keybox=$(find "$SOURCE_DIR" -type f -name "*@pokezone" | head -n 1)
 if [ -n "$random_keybox" ]; then
     cp "$random_keybox" "/data/adb/tricky_store/keybox.xml"
 else
-    ui_print "- ERROR: No keybox file found"
+    ui_print "- ERROR: No keybox found"
+    abort
 fi
 
 #PERMISSIONS
 set_perm /data/adb/tricky_store/target.txt 0 0 0644
 set_perm /data/adb/tricky_store/keybox.xml 0 0 0644
+set_perm "$MODPATH/clean.sh" 0 0 0755
 
-# CLEANING PROCESS
-if [ -f "$MODPATH/clean.sh" ]; then
-    set_perm "$MODPATH/clean.sh" 0 0 0755
-    sh "$MODPATH/clean.sh"
-    rm -f "$MODPATH/clean.sh"
-else
-    ui_print "- WARNING: clean.sh not found."
-fi
+# EXECUTE CLEAN SCRIPT
+sh "$MODPATH/clean.sh"
 
-# CLEAR MAIN FOLDER
+# CLEANING FILES
+rm -f "$MODPATH/clean.sh"
+rm -f "$MODPATH/LICENSE"
 rm -rf "$SOURCE_DIR"
-
-ui_print "*******************************"
-ui_print "    Installation Finished      "
-ui_print "*******************************"

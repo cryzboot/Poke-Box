@@ -1,2 +1,11 @@
+# Folders
 root/
 *.zip
+
+# Files
+compiler.sh
+logic.tmp
+
+# System
+.DS_Store
+Thumbs.db
