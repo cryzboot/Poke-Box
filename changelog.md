@@ -2,6 +2,15 @@
 
 Poke Box by cryzboot
 
+## v1.0
+
+- Device attestation
+- Targetlist updated
+- February security patch
+- Compatible with magisk 26+
+- Added security features
+- Join to [POKE Zone](https://t.me/pokezonee)
+
 ## v0.9
 
 - New keybox

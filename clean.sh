@@ -3,7 +3,7 @@
 echo "- Cleaning sub process..."
 
 # Package list
-PKGS="com.android.vending com.google.android.apps.walletnfcrel"
+PKGS="com.android.vending com.google.android.apps.walletnfcrel, com.nianticlabs.pokemongo"
 
 for pkg in $PKGS; do
     # Check if package exists
