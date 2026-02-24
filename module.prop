@@ -1,7 +1,7 @@
 id=pokebox
 name=Poke Box
-version=v1.0
-versionCode=10
+version=v1.1.0 (11-release)
+versionCode=11
 author=cryzboot
-description=Integrity extension developed to ensure valid attestation for Pokémon GO.
+description=Integrity extension to ensure valid attestation for Pokémon GO.
 updateJson=https://raw.githubusercontent.com/cryzboot/Poke-Box/main/update.json
