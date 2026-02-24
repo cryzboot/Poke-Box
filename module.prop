@@ -1,6 +1,6 @@
 id=pokebox
 name=Poke Box
-version=v1.1.0 (11-3f3c1e3-release)
+version=v1.1.0 (11-85ea8b0-release)
 versionCode=11
 author=cryzboot
 description=Integrity extension to ensure valid attestation for Pokémon GO.
