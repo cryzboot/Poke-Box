@@ -2,7 +2,7 @@
 
 Poke Box by cryzboot
 
-## v1.1
+## v1.1.0 (11-3f3c1e3-release)
 
 - New keybox
 - February security patch
