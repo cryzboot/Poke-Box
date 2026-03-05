@@ -2,7 +2,7 @@
 
 Poke Box by cryzboot
 
-## v1.1.0 (12-release)
+## v1.1.0 (12-b3f676c-release)
 
 - New keybox
 - Compatible with magisk 26+
