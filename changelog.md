@@ -2,6 +2,13 @@
 
 Poke Box by cryzboot
 
+## v1.1.0 (12-release)
+
+- New keybox
+- Compatible with magisk 26+
+- Auto clean Play Store and Pokemon GO
+- Join to [POKE Zone](https://t.me/pokezonee)
+
 ## v1.1.0 (11-85ea8b0-release)
 
 - New keybox
