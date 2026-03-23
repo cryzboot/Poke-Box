@@ -6,6 +6,9 @@ certificates/
 # Files
 compiler.sh
 logic.tmp
+action.sh
+customize.sh
+module.prop
 
 # System
 .DS_Store
