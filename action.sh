@@ -27,7 +27,7 @@ do
   fi
 
   if ! sh "$SOURCE_DIR/$SCRIPT"; then
-    echo "- ERROR: $SCRIPT failed. Aborting..."
+    echo "- ERROR: Abording process..."
     exit 1
   fi
 done
