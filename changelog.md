@@ -1,6 +1,15 @@
 # Changelog
 
-Poke Box by cryzboot
+Poke Box from POKE Zone and HATAKE ROOT PRO
+
+## v1.3.0 (19-3f67e41-release)
+
+- Improved security permissions for data copying and reading
+- Fixed minor bugs on various devices
+- Fixed error when fetching the certificate key
+- Improved compatibility with some superuser managers
+- Enhanced certificate stealth to prevent anti-cheat detection
+- Join the [POKE Zone](https://t.me/pokezonee) community
 
 ## v1.1.0 (15-3f67e41-release)
 
@@ -13,20 +22,4 @@ Poke Box by cryzboot
 - Deleted clean.sh from main path
 - Compatible with Magisk 26+
 - Auto clean Play Store and Pokemon GO
-- Join to [POKE Zone](https://t.me/pokezonee)
-
-## v1.1.0 (14-b3f676c-release)
-
-- New keybox
-- Compatible with magisk 26+
-- Auto clean Play Store and Pokemon GO
-- Join to [POKE Zone](https://t.me/pokezonee)
-
-## v1.1.0 (11-85ea8b0-release)
-
-- New keybox
-- February security patch
-- Compatible with magisk 26+
-- Auto clean Play Store and Pokemon GO
-- Added security features
 - Join to [POKE Zone](https://t.me/pokezonee)
