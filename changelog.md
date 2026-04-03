@@ -1,6 +1,6 @@
 # Changelog
 
-Poke Box from POKE Zone and HATAKE ROOT PRO
+Poke Box by cryzboot
 
 ## v1.3.0 (19-3f67e41-release)
 
@@ -8,6 +8,7 @@ Poke Box from POKE Zone and HATAKE ROOT PRO
 - Fixed minor bugs on various devices
 - Fixed error when fetching the certificate key
 - Improved compatibility with some superuser managers
+- Auto clean TWRP and Fox files from root folder
 - Enhanced certificate stealth to prevent anti-cheat detection
 - Join the [POKE Zone](https://t.me/pokezonee) community
 
