@@ -2,7 +2,7 @@
 
 Poke Box by cryzboot
 
-## v1.3.0 (19-3f67e41-release)
+## v1.3.0 (19-8cadfcd-release)
 
 - Improved security permissions for data copying and reading
 - Fixed minor bugs on various devices
