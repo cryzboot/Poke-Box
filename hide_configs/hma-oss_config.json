@@ -1,1 +1,297 @@
-{"configVersion":93,"detailLog":false,"errorOnlyLog":false,"maxLogSize":512,"forceMountData":true,"disableActivityLaunchProtection":false,"altAppDataIsolation":false,"altVoldAppDataIsolation":false,"skipSystemAppDataIsolation":true,"packageQueryWorkaround":false,"templates":{"POKE":{"isWhitelist":false,"appList":["bin.mt.plus","bin.mt.plus.canary","com.antvn.pokelist","com.dergoogler.mmrl.wx","com.github.thepiemonster.hidemocklocation","com.google.android.hmal","com.jhc.detach","com.pokemod.app.public","com.shungo.app","com.termux","com.tsng.hidemyapplist","com.urbanvpn.android","com.urbanvpn.premium.android","com.theqgctzciov.hnfgwwougqhevrd","es.chiteroman.bootloaderspoofer","io.github.auag0.hidemocklocation","io.github.auag0.imnotadeveloper","io.github.huskydg.magisk","io.github.lsposed.disableflagsecure","io.github.muntashirakon.AppManager","io.github.vvb2060.keyattestation","io.github.vvb2060.magisk","kg54vzphaf08vnrr6.kx2me7xpc.w5ffvj6c","m.u.va.man","moe.shizuku.redirectstorage","net.pgtools.auto","net.pgtools.gps_wrapper","org.fdroid.fdroid","opuuu5gons15ik.qgybst2i.x97gwzuw3lf","org.frknkrc44.hma_oss","com.uptodown","com.igootit.initiative.pokedetector","com.kblack.demo_play_integrity_api","gr.nikolasspyr.integritycheck","com.dergoogler.mmrl","io.github.a13e300.ksuwebui","com.eltavine.duckdetector","com.coderstory.toolkit","com.aurora.store","com.byxiaorun.detector","io.github.rabehx.securify"]}},"settingsTemplates":{},"scope":{"com.nianticlabs.pokemongo":{"useWhitelist":false,"excludeSystemApps":true,"hideInstallationSource":false,"hideSystemInstallationSource":false,"excludeTargetInstallationSource":false,"invertActivityLaunchProtection":false,"excludeVoldIsolation":false,"restrictedZygotePermissions":[],"applyTemplates":["POKE"],"applyPresets":["custom_rom","detector_apps","root_apps","shizuku_dhizuku","sus_apps","xposed"],"applySettingTemplates":[],"applySettingsPresets":["accessibility","dev_options","input_method"],"extraAppList":[],"extraOppositeAppList":[]},"com.byxiaorun.detector":{"useWhitelist":false,"excludeSystemApps":true,"hideInstallationSource":false,"hideSystemInstallationSource":false,"excludeTargetInstallationSource":false,"invertActivityLaunchProtection":false,"excludeVoldIsolation":false,"restrictedZygotePermissions":[],"applyTemplates":["POKE"],"applyPresets":["custom_rom","detector_apps","root_apps","shizuku_dhizuku","sus_apps","xposed"],"applySettingTemplates":[],"applySettingsPresets":["accessibility","dev_options","input_method"],"extraAppList":[],"extraOppositeAppList":[]},"com.studio.duckdetector":{"useWhitelist":false,"excludeSystemApps":true,"hideInstallationSource":false,"hideSystemInstallationSource":false,"excludeTargetInstallationSource":false,"invertActivityLaunchProtection":false,"excludeVoldIsolation":false,"restrictedZygotePermissions":[],"applyTemplates":["POKE"],"applyPresets":["custom_rom","detector_apps","root_apps","shizuku_dhizuku","sus_apps","xposed"],"applySettingTemplates":[],"applySettingsPresets":["accessibility","dev_options","input_method"],"extraAppList":[],"extraOppositeAppList":[]},"com.revolut.revolut":{"useWhitelist":false,"excludeSystemApps":true,"hideInstallationSource":false,"hideSystemInstallationSource":false,"excludeTargetInstallationSource":false,"invertActivityLaunchProtection":false,"excludeVoldIsolation":false,"restrictedZygotePermissions":[],"applyTemplates":["POKE"],"applyPresets":["custom_rom","detector_apps","root_apps","shizuku_dhizuku","sus_apps","xposed"],"applySettingTemplates":[],"applySettingsPresets":["accessibility","dev_options","input_method"],"extraAppList":[],"extraOppositeAppList":[]},"com.reveny.nativecheck":{"useWhitelist":false,"excludeSystemApps":true,"hideInstallationSource":false,"hideSystemInstallationSource":false,"excludeTargetInstallationSource":false,"invertActivityLaunchProtection":false,"excludeVoldIsolation":false,"restrictedZygotePermissions":[],"applyTemplates":["POKE"],"applyPresets":["custom_rom","detector_apps","root_apps","shizuku_dhizuku","sus_apps","xposed"],"applySettingTemplates":[],"applySettingsPresets":["accessibility","dev_options","input_method"],"extraAppList":[],"extraOppositeAppList":[]},"com.com2us.smon.normal.freefull.google.kr.android.common":{"useWhitelist":false,"excludeSystemApps":true,"hideInstallationSource":false,"hideSystemInstallationSource":false,"excludeTargetInstallationSource":false,"invertActivityLaunchProtection":false,"excludeVoldIsolation":false,"restrictedZygotePermissions":[],"applyTemplates":["POKE"],"applyPresets":["custom_rom","detector_apps","root_apps","shizuku_dhizuku","sus_apps","xposed"],"applySettingTemplates":[],"applySettingsPresets":["accessibility","dev_options","input_method"],"extraAppList":[],"extraOppositeAppList":[]},"com.eltavine.duckdetector":{"useWhitelist":false,"excludeSystemApps":true,"hideInstallationSource":false,"hideSystemInstallationSource":false,"excludeTargetInstallationSource":false,"invertActivityLaunchProtection":false,"excludeVoldIsolation":false,"restrictedZygotePermissions":[],"applyTemplates":["POKE"],"applyPresets":["accessibility_apps","custom_rom","detector_apps","root_apps","shizuku_dhizuku","sus_apps","xposed"],"applySettingTemplates":[],"applySettingsPresets":["accessibility","dev_options","input_method"],"extraAppList":[],"extraOppositeAppList":[]},"jp.pokemon.pokemontcgp":{"useWhitelist":false,"excludeSystemApps":true,"hideInstallationSource":false,"hideSystemInstallationSource":false,"excludeTargetInstallationSource":false,"invertActivityLaunchProtection":false,"excludeVoldIsolation":false,"restrictedZygotePermissions":[],"applyTemplates":["POKE"],"applyPresets":["accessibility_apps","custom_rom","detector_apps","root_apps","shizuku_dhizuku","sus_apps","xposed"],"applySettingTemplates":[],"applySettingsPresets":["accessibility","dev_options","input_method"],"extraAppList":[],"extraOppositeAppList":[]}}}
+{
+    "configVersion": 93,
+    "detailLog": false,
+    "errorOnlyLog": false,
+    "maxLogSize": 512,
+    "forceMountData": true,
+    "disableActivityLaunchProtection": false,
+    "altAppDataIsolation": false,
+    "altVoldAppDataIsolation": false,
+    "skipSystemAppDataIsolation": true,
+    "packageQueryWorkaround": false,
+    "templates": {
+        "POKE": {
+            "isWhitelist": false,
+            "appList": [
+                "bin.mt.plus",
+                "bin.mt.plus.canary",
+                "com.antvn.pokelist",
+                "com.dergoogler.mmrl.wx",
+                "com.github.thepiemonster.hidemocklocation",
+                "com.google.android.hmal",
+                "com.jhc.detach",
+                "com.pokemod.app.public",
+                "com.shungo.app",
+                "com.termux",
+                "com.tsng.hidemyapplist",
+                "com.urbanvpn.android",
+                "com.urbanvpn.premium.android",
+                "com.theqgctzciov.hnfgwwougqhevrd",
+                "es.chiteroman.bootloaderspoofer",
+                "io.github.auag0.hidemocklocation",
+                "io.github.auag0.imnotadeveloper",
+                "io.github.huskydg.magisk",
+                "io.github.lsposed.disableflagsecure",
+                "io.github.muntashirakon.AppManager",
+                "io.github.vvb2060.keyattestation",
+                "io.github.vvb2060.magisk",
+                "kg54vzphaf08vnrr6.kx2me7xpc.w5ffvj6c",
+                "m.u.va.man",
+                "moe.shizuku.redirectstorage",
+                "net.pgtools.auto",
+                "net.pgtools.gps_wrapper",
+                "org.fdroid.fdroid",
+                "opuuu5gons15ik.qgybst2i.x97gwzuw3lf",
+                "org.frknkrc44.hma_oss",
+                "com.uptodown",
+                "com.igootit.initiative.pokedetector",
+                "com.kblack.demo_play_integrity_api",
+                "gr.nikolasspyr.integritycheck",
+                "com.dergoogler.mmrl",
+                "io.github.a13e300.ksuwebui",
+                "com.eltavine.duckdetector",
+                "com.coderstory.toolkit",
+                "com.aurora.store",
+                "com.byxiaorun.detector",
+                "io.github.rabehx.securify"
+            ]
+        }
+    },
+    "settingsTemplates": {},
+    "scope": {
+        "com.nianticlabs.pokemongo": {
+            "useWhitelist": false,
+            "excludeSystemApps": true,
+            "hideInstallationSource": false,
+            "hideSystemInstallationSource": false,
+            "excludeTargetInstallationSource": false,
+            "invertActivityLaunchProtection": false,
+            "excludeVoldIsolation": false,
+            "restrictedZygotePermissions": [],
+            "applyTemplates": [
+                "POKE"
+            ],
+            "applyPresets": [
+                "custom_rom",
+                "detector_apps",
+                "root_apps",
+                "shizuku_dhizuku",
+                "sus_apps",
+                "xposed"
+            ],
+            "applySettingTemplates": [],
+            "applySettingsPresets": [
+                "accessibility",
+                "dev_options",
+                "input_method"
+            ],
+            "extraAppList": [],
+            "extraOppositeAppList": []
+        },
+        "com.byxiaorun.detector": {
+            "useWhitelist": false,
+            "excludeSystemApps": true,
+            "hideInstallationSource": false,
+            "hideSystemInstallationSource": false,
+            "excludeTargetInstallationSource": false,
+            "invertActivityLaunchProtection": false,
+            "excludeVoldIsolation": false,
+            "restrictedZygotePermissions": [],
+            "applyTemplates": [
+                "POKE"
+            ],
+            "applyPresets": [
+                "custom_rom",
+                "detector_apps",
+                "root_apps",
+                "shizuku_dhizuku",
+                "sus_apps",
+                "xposed"
+            ],
+            "applySettingTemplates": [],
+            "applySettingsPresets": [
+                "accessibility",
+                "dev_options",
+                "input_method"
+            ],
+            "extraAppList": [],
+            "extraOppositeAppList": []
+        },
+        "com.studio.duckdetector": {
+            "useWhitelist": false,
+            "excludeSystemApps": true,
+            "hideInstallationSource": false,
+            "hideSystemInstallationSource": false,
+            "excludeTargetInstallationSource": false,
+            "invertActivityLaunchProtection": false,
+            "excludeVoldIsolation": false,
+            "restrictedZygotePermissions": [],
+            "applyTemplates": [
+                "POKE"
+            ],
+            "applyPresets": [
+                "custom_rom",
+                "detector_apps",
+                "root_apps",
+                "shizuku_dhizuku",
+                "sus_apps",
+                "xposed"
+            ],
+            "applySettingTemplates": [],
+            "applySettingsPresets": [
+                "accessibility",
+                "dev_options",
+                "input_method"
+            ],
+            "extraAppList": [],
+            "extraOppositeAppList": []
+        },
+        "com.revolut.revolut": {
+            "useWhitelist": false,
+            "excludeSystemApps": true,
+            "hideInstallationSource": false,
+            "hideSystemInstallationSource": false,
+            "excludeTargetInstallationSource": false,
+            "invertActivityLaunchProtection": false,
+            "excludeVoldIsolation": false,
+            "restrictedZygotePermissions": [],
+            "applyTemplates": [
+                "POKE"
+            ],
+            "applyPresets": [
+                "custom_rom",
+                "detector_apps",
+                "root_apps",
+                "shizuku_dhizuku",
+                "sus_apps",
+                "xposed"
+            ],
+            "applySettingTemplates": [],
+            "applySettingsPresets": [
+                "accessibility",
+                "dev_options",
+                "input_method"
+            ],
+            "extraAppList": [],
+            "extraOppositeAppList": []
+        },
+        "com.reveny.nativecheck": {
+            "useWhitelist": false,
+            "excludeSystemApps": true,
+            "hideInstallationSource": false,
+            "hideSystemInstallationSource": false,
+            "excludeTargetInstallationSource": false,
+            "invertActivityLaunchProtection": false,
+            "excludeVoldIsolation": false,
+            "restrictedZygotePermissions": [],
+            "applyTemplates": [
+                "POKE"
+            ],
+            "applyPresets": [
+                "custom_rom",
+                "detector_apps",
+                "root_apps",
+                "shizuku_dhizuku",
+                "sus_apps",
+                "xposed"
+            ],
+            "applySettingTemplates": [],
+            "applySettingsPresets": [
+                "accessibility",
+                "dev_options",
+                "input_method"
+            ],
+            "extraAppList": [],
+            "extraOppositeAppList": []
+        },
+        "com.com2us.smon.normal.freefull.google.kr.android.common": {
+            "useWhitelist": false,
+            "excludeSystemApps": true,
+            "hideInstallationSource": false,
+            "hideSystemInstallationSource": false,
+            "excludeTargetInstallationSource": false,
+            "invertActivityLaunchProtection": false,
+            "excludeVoldIsolation": false,
+            "restrictedZygotePermissions": [],
+            "applyTemplates": [
+                "POKE"
+            ],
+            "applyPresets": [
+                "custom_rom",
+                "detector_apps",
+                "root_apps",
+                "shizuku_dhizuku",
+                "sus_apps",
+                "xposed"
+            ],
+            "applySettingTemplates": [],
+            "applySettingsPresets": [
+                "accessibility",
+                "dev_options",
+                "input_method"
+            ],
+            "extraAppList": [],
+            "extraOppositeAppList": []
+        },
+        "com.eltavine.duckdetector": {
+            "useWhitelist": false,
+            "excludeSystemApps": true,
+            "hideInstallationSource": false,
+            "hideSystemInstallationSource": false,
+            "excludeTargetInstallationSource": false,
+            "invertActivityLaunchProtection": false,
+            "excludeVoldIsolation": false,
+            "restrictedZygotePermissions": [],
+            "applyTemplates": [
+                "POKE"
+            ],
+            "applyPresets": [
+                "accessibility_apps",
+                "custom_rom",
+                "detector_apps",
+                "root_apps",
+                "shizuku_dhizuku",
+                "sus_apps",
+                "xposed"
+            ],
+            "applySettingTemplates": [],
+            "applySettingsPresets": [
+                "accessibility",
+                "dev_options",
+                "input_method"
+            ],
+            "extraAppList": [],
+            "extraOppositeAppList": []
+        },
+        "jp.pokemon.pokemontcgp": {
+            "useWhitelist": false,
+            "excludeSystemApps": true,
+            "hideInstallationSource": false,
+            "hideSystemInstallationSource": false,
+            "excludeTargetInstallationSource": false,
+            "invertActivityLaunchProtection": false,
+            "excludeVoldIsolation": false,
+            "restrictedZygotePermissions": [],
+            "applyTemplates": [
+                "POKE"
+            ],
+            "applyPresets": [
+                "accessibility_apps",
+                "custom_rom",
+                "detector_apps",
+                "root_apps",
+                "shizuku_dhizuku",
+                "sus_apps",
+                "xposed"
+            ],
+            "applySettingTemplates": [],
+            "applySettingsPresets": [
+                "accessibility",
+                "dev_options",
+                "input_method"
+            ],
+            "extraAppList": [],
+            "extraOppositeAppList": []
+        }
+    }
+}
