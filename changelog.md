@@ -2,6 +2,15 @@
 
 Poke Box by cryzboot
 
+## v2.0.2 (22)
+
+- Added UI Module Manager
+- Introduced customizable functions
+- Added Basic Integrity feature
+- Added console view for applied items
+- Improved module protection
+- Join [POKE Zone](https://t.me/pokezonee)
+
 ## v1.3.0 (19-9ab6ecf-release)
 
 - Improved security permissions for data copying and reading
