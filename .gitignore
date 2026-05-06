@@ -4,14 +4,14 @@ webroot/
 *.zip
 
 # Files
-compiler.sh
+jet-com.sh
+hyperion.sh
 logic.tmp
 action.sh
 customize.sh
 module.prop
 uninstall.sh
 verify.sh
-compiler2.sh
 service.sh
 hyperion
 hyperion.c
