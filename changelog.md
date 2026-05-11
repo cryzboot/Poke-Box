@@ -2,6 +2,17 @@
 
 Poke Box by cryzboot
 
+## v2.2.1 (25-beta)
+
+- Fixed important bugs
+- Improved UI Module Manager
+- Added new Downgrade feature
+- Improved customizable functions
+- Removed Basic Integrity feature
+- Improved console view for applied items
+- Improved module protection
+- Join [POKE Zone](https://t.me/pokezonee)
+
 ## v2.0.2 (22)
 
 - Added UI Module Manager
