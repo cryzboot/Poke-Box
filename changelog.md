@@ -2,6 +2,11 @@
 
 Poke Box by cryzboot
 
+## v2.2.7 (26-beta)
+- Fixed integrity issues on certain devices (Motorola, Chinese ROMs)
+- Fixed unpack error in some custom ROMs
+- Join [POKE Zone](https://t.me/pokezonee)
+
 ## v2.2.1 (25-beta)
 
 - Fixed important bugs
