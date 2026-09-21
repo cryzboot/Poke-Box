@@ -1,6 +1,6 @@
 {
-  "version": "v2.2.7 (26-beta)",
-  "versionCode": 26,
-  "zipUrl": "https://github.com/cryzboot/Poke-Box/releases/download/v2.2.7-26/pokebox-v2.2.7-26-beta.zip",
+  "version": "v3.0.1",
+  "versionCode": 27,
+  "zipUrl": "https://github.com/cryzboot/Poke-Box/releases/download/v3.0.1/pokebox-v3.0.1-release.zip",
   "changelog": "https://raw.githubusercontent.com/cryzboot/Poke-Box/main/changelog.md"
 }

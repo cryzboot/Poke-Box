@@ -2,6 +2,13 @@
 
 Poke Box by cryzboot
 
+## v3.0.1 (27-release)
+- Added Custom Keybox to load your own keybox
+- Added New Fingerprint and Security Patch tools
+- Improved Toolbox with Fetch and Tools sections
+- Improved interface and colors
+- Join [POKE Zone](https://t.me/pokezonee)
+
 ## v2.2.7 (26-beta)
 - Fixed integrity issues on certain devices (Motorola, Chinese ROMs)
 - Fixed unpack error in some custom ROMs
