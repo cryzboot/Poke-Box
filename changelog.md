@@ -2,6 +2,15 @@
 
 Poke Box by cryzboot
 
+## v3.5.6 (28-release)
+- Improved interface with new colors, cards and icons
+- Improved Custom Keybox with a file browser for internal storage
+- Added Pixel model picker to New Fingerprint
+- Security Patch now follows the active fingerprint
+- Improved console with errors shown in red
+- Removed unused code
+- Join [POKE Zone](https://t.me/pokezonee)
+
 ## v3.0.1 (27-release)
 - Added Custom Keybox to load your own keybox
 - Added New Fingerprint and Security Patch tools
